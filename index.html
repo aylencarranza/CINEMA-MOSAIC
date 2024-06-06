@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Mosaic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      /* Estilos para las imágenes del carrusel */
+      .carousel-item img {
+          max-width: 300px; /* Ancho máximo deseado */
+          height: auto; /* Altura automática para mantener la proporción */
+          margin: auto; /* Centra la imagen horizontalmente */
+      }
+  </style>
+</head>
+    <header class="header">
+        <img src="cinemamosaiclogo.jpg" alt="Cinema Mosaic">
+    </header>
+    <main>
+        <div class="content">
+            <div class="card">
+                <div class="info">
+                    <h2>Sobre CINEMA MOSAIC</h2>
+                    <p>CINEMA MOSAIC es un blog creado para esos momentos de domingos por la tarde en los que no se sabe qué ver en la televisión. Es una página personalizada, en donde se han agregado reseñas personales a cada una de las películas, de manera que se agregue veracidad a las recomendaciones. Por el momento, se cuenta con 4 géneros (mis favoritos) de los cuales cuentan con un 10 de las mejores películas de cada género y la respectiva plataforma en donde se pueden ver éstas.</p>
+                </div>
+            </div>
+        </div>
+        <ul class="generos">
+            <li><a href="romance.html" target="_blank">ROMANCE</a></li>
+            <li><a href="comedia.html" target="_blank">COMEDIA</a></li>
+            <li><a href="terror.html" target="_blank">TERROR</a></li>
+            <li><a href="drama.html" target="_blank">DRAMA</a></li>
+        </ul>
+    
+        <!-- Carrusel de Recomendaciones de la Semana -->
+        <h2 class="text-center mt-5" style="font-family: 'Arial Black', sans-serif; color: #f8f2f2; font-size: 36px; text-transform: uppercase;">Recomendaciones de la Semana</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="challengers.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="robotdreams.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="shivababy.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+

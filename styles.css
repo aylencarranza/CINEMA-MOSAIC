@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(14, 11, 90);
+}
+
+.header {
+    text-align: center; /* Centra horizontalmente el contenido */
+    padding: 20px;
+    background-color: #121212e0;
+}
+
+.header img {
+    max-width: 100%; /* La imagen no se desbordará del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 245, 243);
+    text-align: justify; 
+}
+
+.card .info {
+    padding: 20px;
+}
+
+.card .info h2 {
+    text-align: center; 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.generos {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+.generos li {
+    display: inline-block;
+    margin: 10px 20px; 
+}
+
+.generos li a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #070707;
+    color: #faf2f2;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.generos li a:hover {
+    background-color: #40adec;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.card-carousel {
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ccf3f0;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Ancho máximo de la card */
+    margin: auto; /* Centrar la card */
+}
+
+.card-carousel img {
+    max-width: 100%; /* Ajustar al ancho del contenedor */
+    height: auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: justify;
+}
+
+.card-body h5, .card-body p {
+    margin: 0; /* Eliminar el margen predeterminado */
+}
+
+#carouselRecomendaciones h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+
+
